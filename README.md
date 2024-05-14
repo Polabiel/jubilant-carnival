@@ -12,7 +12,7 @@ Utilizando o conhecimento adquirido em sala, os alunos devem escolher entre duas
    - A aba de mapa deve exibir um mapa utilizando a API do Google Maps ou Open Street Maps.
    - Deve ser capaz de mostrar a localização atual do dispositivo em tempo real.
      
-> [!IMPORTANTE] ⚠️
+> [!IMPORTANT]
 > Garantir que o aplicativo solicite as permissões necessárias do usuário para acessar a localização do dispositivo.
 
 2. **Opção 2: Adição de uma aba de gerenciamento de disciplinas 📚**
