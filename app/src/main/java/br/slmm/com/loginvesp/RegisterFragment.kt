@@ -17,7 +17,6 @@ class RegisterFragment : Fragment() {
     private var _binding: FragmentRegisterBinding? = null
     private val binding get() = _binding!!
     private lateinit var auth : FirebaseAuth
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -36,22 +35,21 @@ class RegisterFragment : Fragment() {
         auth = Firebase.auth
         binding.btnRegister.setOnClickListener {
             val email = binding.edtEmailRG.text.toString()
-            val pwd   = binding.edtPwdRG.text.toString()
+            val pwd = binding.edtPwdRG.text.toString()
 
             auth.createUserWithEmailAndPassword(email, pwd)
-                .addOnCompleteListener {task ->
+                .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
-                        findNavController().popBackStack()
+                        findNavController().navigate(R.id.action_loginFragment_to_mainFragment)
                     } else {
                         Toast.makeText(activity, task.exception?.message, Toast.LENGTH_LONG).show()
                     }
+
                 }
 
-        }
-
-        binding.btnCancel.setOnClickListener {
-            findNavController().popBackStack()
+            binding.btnCancel.setOnClickListener {
+                findNavController().popBackStack()
+            }
         }
     }
-
 }

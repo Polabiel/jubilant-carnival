@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "693145862498",
-    "project_id": "loginfrag",
-    "storage_bucket": "loginfrag.appspot.com"
+    "project_number": "1034704174342",
+    "project_id": "zanoni-bot",
+    "storage_bucket": "zanoni-bot.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:693145862498:android:c72f586f7bf6e25a01ec3b",
+        "mobilesdk_app_id": "1:1034704174342:android:5124d61db378bd88d23287",
         "android_client_info": {
           "package_name": "br.slmm.com.loginvesp"
         }
@@ -15,26 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBNMK1Ae6EZP2wyPzrmjGqX_9vw9EE5xNg"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:693145862498:android:cf133a38524adbaf01ec3b",
-        "android_client_info": {
-          "package_name": "com.example.loginfrag"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBNMK1Ae6EZP2wyPzrmjGqX_9vw9EE5xNg"
+          "current_key": "AIzaSyBIskN7aPGi4MkBmxhYIO5LRDxMJfMkQ2Q"
         }
       ],
       "services": {
