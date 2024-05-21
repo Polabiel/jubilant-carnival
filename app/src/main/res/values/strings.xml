@@ -3,4 +3,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="voltar_para_p_gina_inicial">Voltar para página inicial</string>
+    <string name="salvar_curso">Salvar curso</string>
+    <string name="excluir_curso_por_id">Excluir Curso por Id</string>
+    <string name="nome_do_curso">Nome do curso</string>
+    <string name="id_do_curso_a_ser_exclu_do">id do curso a ser excluído</string>
+    <string name="consultar_pelo_id">Consultar pelo id</string>
+    <string name="informa_es_do_banco_de_dados">Informações do banco de dados</string>
+    <string name="volta_para_home">Volta para Home</string>
 </resources>

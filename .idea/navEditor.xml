@@ -73,6 +73,18 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="crud2">
+                              <value>
+                                <LayoutPositions>
+                                  <option name="myPosition">
+                                    <Point>
+                                      <option name="x" value="391" />
+                                      <option name="y" value="-1" />
+                                    </Point>
+                                  </option>
+                                </LayoutPositions>
+                              </value>
+                            </entry>
                             <entry key="mainFragment">
                               <value>
                                 <LayoutPositions>
