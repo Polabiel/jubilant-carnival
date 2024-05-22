@@ -41,5 +41,10 @@ class MainFragment : Fragment() {
             auth.signOut()
             findNavController().navigate(R.id.action_mainFragment_to_loginFragment)
         }
+
+        binding.btnGoCrud.setOnClickListener {
+            findNavController().navigate(R.id.action_mainFragment_to_crud2)
+        }
+
     }
 }

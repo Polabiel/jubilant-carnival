@@ -10,4 +10,6 @@
     <string name="consultar_pelo_id">Consultar pelo id</string>
     <string name="informa_es_do_banco_de_dados">Informações do banco de dados</string>
     <string name="volta_para_home">Volta para Home</string>
+    <string name="visualizar_o_crud">Visualizar o CRUD</string>
+    <string name="deslogar">Deslogar</string>
 </resources>

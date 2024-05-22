@@ -59,6 +59,10 @@
             android:id="@+id/crud2"
             android:name="br.slmm.com.loginvesp.crud"
             android:label="fragment_crud"
-            tools:layout="@layout/fragment_crud" />
+            tools:layout="@layout/fragment_crud" >
+            <action
+                android:id="@+id/action_crud2_to_mainFragment"
+                app:destination="@id/mainFragment" />
+        </fragment>
     </navigation>
 </navigation>

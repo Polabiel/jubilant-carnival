@@ -12,7 +12,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="83dp"
         android:layout_marginEnd="29dp"
-        android:text="Deslogar"
+        android:text="@string/deslogar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGoCrud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="83dp"
+        android:backgroundTint="#00BCD4"
+        android:text="@string/visualizar_o_crud"
+        android:textColor="#283593"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
